@@ -1,0 +1,14 @@
+
+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
+
+Deletion of specific records
+----------------------------
+
+POST /enriched_full_sql/_delete_by_query?pretty
+{
+  "query": {
+    "match": {
+      "doc.Confidence Level": "20"
+    }
+  }
+}

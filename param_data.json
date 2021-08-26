@@ -1,0 +1,6 @@
+{
+"path": "./",
+"pathProcessed" :"Processed/",
+"confidentialityPolicyRule" : "Policy Rule 1",
+"index" : "enriched_full_sql"
+}
