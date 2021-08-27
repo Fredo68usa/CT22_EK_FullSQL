@@ -22,9 +22,12 @@ INSTALLATION PROCEDURE
         ./FullSQLEnrich_X_EK.py xxxxx    with xxxx a pattern to recognize a/several collectors
         if collectors are named like dcprodx00x  with x = digit (dcprodx001, dcprodx002, dcprodx003 ....)
         ./FullSQLEnrich_X_EK.py dcprodx00
-        this will process the ddatamart files of ALL collectors whose name contains dcprodx00
+            will process the ddatamart files of ALL collectors whose name contains dcprodx00
         - sync the execution of the python program with the receiving of the datamart like 5 minutes later.
 
+LIMITATIONS
+-----------
+- corrupt files and corrupt records are not being processed
 
 Deletion of specific records
 ----------------------------
