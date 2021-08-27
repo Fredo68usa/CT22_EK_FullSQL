@@ -7,7 +7,7 @@ INSTALLATION PROCEDURE
 - Kibana (optionally on Docker)
 - Python3 + Python virtual environment + libraries
 - Activate Guardium GBDI "Full SQL Nodep" Datamart
-- git clone CT22_EK-FullSQL
+- git clone CT22_EK_FullSQL
 - update the param_data.json file to your needs/set up
 - cron the execution of the python program by collectors or group of collectors :
 	- example:
