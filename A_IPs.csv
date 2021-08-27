@@ -1,0 +1,6 @@
+Hostname,IP,Env,Location,Physical Type,Node Type,PII,Org,Business Owner,IT Owner
+SERVER_1,1.1.1.1,PROD,Internal,Node,Database,TRUE,Neuro,Dr Habbal,Grouillot
+LAPTOP_1,,,,,,,Neuro,Rahman MD,Grouillot
+SERVER_2,1.1.1.2,NON PROD,Internal,Node,APP Server,,Neuro,Dr Habbal,Grouillot
+SERVER_3,1.1.1.3,PROD,Internal,Node,Database,TRUE,Neuro,Dr Habbal,Grouillot
+SERVER_4,1.1.1.4,NON PROD,Internal,Node,Database,TRUE,Neuro,Dr Habbal,Grouillot

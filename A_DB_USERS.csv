@@ -1,0 +1,4 @@
+DB User Name,Acct Type,email,Shared,Contact
+DBUSER_1,Personal,G@G.net,FALSE,Grouillot
+DBUSER_2,App User,RMD@Rahman.com,TRUE,Rahman MD
+DB_USER_3,Service Acct,,TRUE,Renault
