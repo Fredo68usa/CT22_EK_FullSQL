@@ -5,7 +5,11 @@ INSTALLATION PROCEDURE
 - Docker (optional)
 - ElasticSearch (optionally on Docker)
 - Kibana (optionally on Docker)
+- create a user "context22"
 - Python3 + Python virtual environment + libraries
+	- python3 -m venv ~/venv
+	- source ~/venv/bin/activate
+	- libraries : pandas 
 - Activate Guardium GBDI "Full SQL Nodep" Datamart
 - git clone CT22_EK_FullSQL
 - update the param_data.json file to your needs/set up
