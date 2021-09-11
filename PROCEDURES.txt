@@ -6,6 +6,7 @@ INSTALLATION PROCEDURE
 - ElasticSearch (optionally on Docker)
 - Kibana (optionally on Docker)
 - create a user "context22"
+- git clone https://github.com/Fredo68usa/CT22_EK_FullSQL.git
 - Python3 + Python virtual environment + libraries
 	- python3 -m venv ~/venv
 	- source ~/venv/bin/activate
