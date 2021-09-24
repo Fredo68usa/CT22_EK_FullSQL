@@ -10,7 +10,7 @@ INSTALLATION PROCEDURE
 - Python3 + Python virtual environment + libraries
 	- python3 -m venv ~/venv
 	- source ~/venv/bin/activate
-	- libraries : pandas 
+	- libraries : elasticsearch
 - Activate Guardium GBDI "Full SQL Nodep" Datamart
 - git clone CT22_EK_FullSQL
 - update the param_data.json file to your needs/set up
@@ -19,7 +19,7 @@ INSTALLATION PROCEDURE
         - A_IPs.csv - Must have at least 2 columns : "Hostname" & "IP" for each node (client or server) + any other column - Make sure there is no duplicate in the t-uple Hostname/IP
         2 examples of such file are provided.
 - Upload in Kibana the following 3 csv files:
-	- A_SEL_TYP.csv as a_sel_typ index
+	- A_SEL_TYP.csv as a_sel_typ index (csv file provided)
 	- A_IPs.csv as a_ips index
 	- A_DB_USERS.csv as a_db_users index
 - cron the execution of the python program by collectors or group of collectors :
